@@ -47,3 +47,7 @@ def get_categories() -> list[CategoryDTO]:
     categories = [CategoryDTO(id=i, name=f'category-{i}')
                   for i in range(1, 11)]
     return categories
+
+
+# репозитории
+# модели
