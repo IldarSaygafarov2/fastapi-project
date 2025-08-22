@@ -29,7 +29,7 @@ class DbConfig:
             username=self.user,
             password=self.password,
             port=self.port
-        ).render_as_string()
+        ).render_as_string(hide_password=False)
 
 
 
